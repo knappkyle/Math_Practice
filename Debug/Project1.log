@@ -1,3 +1,4 @@
 ﻿  Client.cpp
+c:\users\kyle.000\desktop\main_test\math_practice\client.cpp(15): warning C4700: uninitialized local variable 'again' used
   Client.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Project1.vcxproj -> C:\Users\Kyle.000\Desktop\Main_Test\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\Kyle.000\Desktop\Main_Test\Math_Practice\Debug\Project1.exe

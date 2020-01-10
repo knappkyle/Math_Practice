@@ -17,9 +17,15 @@ public:
 
 
 	int OpeningMenu();
+	int makeRandNum();
+
+	//setters
 	void setNum1(int);
 	void setNum2(int);
 
+	//getters
+	int getNum1();
+	int getNum2();
 
 
 };

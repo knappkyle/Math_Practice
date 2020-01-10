@@ -10,14 +10,17 @@
 class Adding 
 {
 private:
+
 	int RandomNumber;
 	int RandomNumber2;
 
 public:
 
-
 	int OpeningMenu();
 	int makeRandNum();
+	int makeRandNum2();
+	int addSum(int, int);
+	int DispExp(int, int);
 
 	//setters
 	void setNum1(int);

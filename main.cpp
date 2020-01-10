@@ -18,7 +18,7 @@ int Adding::OpeningMenu()
 	cout << "1: Practice" << endl;
 	cout << "2: Quit" << endl;
 	cout << endl;
-
+	cout << "Choice: ";
 	cin >> choice;
 
 	return choice;
@@ -48,10 +48,38 @@ int Adding::getNum2()
 
 int Adding::makeRandNum()
 {
-	/* initialize random seed: */
+	// initialize random seed
 	srand(time(NULL));
 
-	RandomNumber = rand() % 100 + 1;
+	RandomNumber = rand() % 99 + 1; //maybe make the number dynamic for difficulties?
 
 	return RandomNumber;
+}
+
+int Adding::makeRandNum2()
+{
+
+	RandomNumber2 = rand() % 99 + 1;
+
+	return RandomNumber2;
+}
+
+int Adding::addSum(int x, int y)
+{
+	return x + y;
+}
+
+int Adding::DispExp(int x, int y)
+{
+	int answer;
+	cout << "===============================" << endl;
+	cout << "_______       _______  " << endl;
+	cout << "|     |       |     | " << endl;
+    cout << "  " << x <<"      +      "     << y <<  "     =" << endl;
+	cout << "|_____|       |_____|" << endl;
+	cout << endl;
+	cout << "ANSWER: ";
+	cin >> answer;
+
+	return answer;
 }
